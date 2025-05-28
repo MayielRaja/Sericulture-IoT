@@ -5,12 +5,12 @@
 #include "DHT.h"
 
 // WiFi Credentials
-#define WIFI_SSID "OPPO F17 Pro"
-#define WIFI_PASS "stupid data"
+#define WIFI_SSID "OPPO F17 Pro" // wifi name
+#define WIFI_PASS "stupid data" // wifi password
 
 // Firebase Configuration
-#define DATABASE_URL "https://sericulture-monitor-da962-default-rtdb.firebaseio.com/"
-#define API_KEY "AIzaSyDFYHFu3w2Q3YfPlnt871xumF6Mt-_5Bys"
+#define DATABASE_URL "https://sericulture-monitor-*****-default-rtdb.firebaseio.com/"    / firebase url
+#define API_KEY "************************"                                              //API key of firebase url
 
 // Firebase Objects
 FirebaseData fbdo;
